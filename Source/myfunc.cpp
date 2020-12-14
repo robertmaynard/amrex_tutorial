@@ -117,7 +117,7 @@ void init_phi(amrex::MultiFab& phi_new, amrex::Geometry const& geom){
 
 //Needed for MSVC compilation due to no support of weak symbols
 
-#include "AMReX_LevelBld.h"
+#include <AMReX_LevelBld.H>
 amrex::LevelBld*
 getLevelBld()
 {
